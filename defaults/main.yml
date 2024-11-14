@@ -293,6 +293,11 @@ rabbitmq_init_overrides:
     Restart: on-failure
     RestartSec: 2
 
+# Example overrides for rabbitmq tcp listen options
+# rabbitmq_tcp_listen_options:
+#   backlog: 4096
+#   keepalive: "true"
+
 # Mnesia configuration
 # The Mnesia dump_log_write_threshold option controls
 # how often the dumping occurs
